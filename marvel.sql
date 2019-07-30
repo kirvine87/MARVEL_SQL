@@ -52,29 +52,37 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 20
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '22:10');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:00');
 
--- SELECT * FROM movies
+-- SELECT * FROM movies;
 
--- SELECT name FROM people
+-- SELECT name FROM people;
 
 -- UPDATE people SET name = 'Krusty the Clown' WHERE name = 'Crusty the Clown';
--- SELECT name FROM people
+-- SELECT name FROM people;
 
 -- SELECT name FROM people WHERE name = 'Homer Simpson'
 
 -- DELETE FROM movies WHERE id = 9;
--- SELECT * FROM movies
+-- SELECT * FROM movies;
 
 -- INSERT INTO people (name) VALUES ('Bart Simpson');
--- SELECT name FROM people
+-- SELECT name FROM people;
 
 -- DELETE FROM people WHERE id = 11;
--- SELECT * FROM people
+-- SELECT * FROM people;
 
 -- INSERT INTO movies (title, year, show_time) VALUES ('Avengers:Infinity War', 2018, '00:00');
--- SELECT * FROM movies
+-- SELECT * FROM movies;
 
 -- INSERT INTO movies (title, year, show_time) VALUES ('Iron Man 3', 2013, '20:45');
--- SELECT * FROM movies
+-- SELECT * FROM movies;
+
+-- EXTENSIONS
 
 -- DELETE FROM people WHERE id IN (1,2,3,4,5);
--- SELECT * FROM people
+-- SELECT * FROM people;
+
+-- DELETE FROM people WHERE id BETWEEN 2 AND 10;
+-- SELECT * FROM people;
+-- % at the start if the word ends with it, % at the end if it starts with it, % at both sides if it includes that word
+-- DELETE FROM people WHERE name LIKE '%Simpson';
+-- SELECT * FROM people;
